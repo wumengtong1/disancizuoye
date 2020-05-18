@@ -1,12 +1,12 @@
-package wumengtong;//²âÊÔÀà
+package wumengtong;//æµ‹è¯•ç±»
 
 public class SMTest {
     public static void main(String[] args) {
-        StudentManager studentManager = new StudentManager();//´´½¨Ñ§Éú¹ÜÀíÀà¶ÔÏóstudentManager
-        studentManager.addStudent(1,"ÎâÃÏÍ©","1999.7",true);//²åÈëÎÒµÄĞÅÏ¢
-        studentManager.seek("ÎâÃÏÍ©");
-        studentManager. change("ÎâÃÏÍ©");
+        StudentManager studentManager = new StudentManager();//åˆ›å»ºå­¦ç”Ÿç®¡ç†ç±»å¯¹è±¡studentManager
+        studentManager.addStudent(1,"å´å­Ÿæ¡","1999.7",true);//æ’å…¥æˆ‘çš„ä¿¡æ¯
+        studentManager.seek("å´å­Ÿæ¡");
+        studentManager. change("å´å­Ÿæ¡");
         studentManager.printAll();
         studentManager.tuichu();
     }
-}
+}//æ’å…¥åˆå§‹å€¼
