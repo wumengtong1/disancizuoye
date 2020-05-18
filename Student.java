@@ -1,25 +1,25 @@
 package wumengtong;
 public class Student {
     private int ID;
-    private String name=null;//学生姓名 private String name 11
-    private String birDate=null;//学生生日private String birDate 11
-    private boolean gender=true;//学生性别，true为男 private boolean gender 11
+    private String name=null;//瀛︾敓濮撳悕 private String name 11
+    private String birDate=null;//瀛︾敓鐢熸棩private String birDate 11
+    private boolean gender=true;//瀛︾敓鐨勬�у埆锛宼rue涓虹敺 private boolean gender 11
 
-    public int getID() {return ID; }//获取学号
+    public int getID() {return ID; }//鑾峰彇瀛﹀彿
 
-    public void setID(int ID) {this.ID = ID; }//设置学号
+    public void setID(int ID) {this.ID = ID; }//璁剧疆瀛﹀彿
 
-    public String getBirDate() {return birDate;}//获取生日
+    public String getBirDate() {return birDate;}//鑾峰彇鐢熸棩
 
-    public void setBirDate(String birDate) {this.birDate = birDate;}//设置生日
+    public void setBirDate(String birDate) {this.birDate = birDate;}//璁剧疆鐢熸棩
 
     public boolean isGender() {return gender;}
 
-    public void setGender(boolean gender) {this.gender = gender;}//设置性别
+    public void setGender(boolean gender) {this.gender = gender;}//璁剧疆鎬у埆
 
-    public String getName() {return name;}//获得姓名
+    public String getName() {return name;}//鑾峰緱濮撳悕
 
-    public void setName(String name) {this.name = name; }//设置姓名
+    public void setName(String name) {this.name = name; }//璁剧疆濮撳悕
 }
 
 
